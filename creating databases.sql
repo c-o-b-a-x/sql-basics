@@ -1,7 +1,7 @@
 -- DBMS - Database Management System (eg. MySQL server)
 
 -- create a database :
---create database cmp_cohughes; 
+-- create database cmp_cohughes; 
 
 use cmp_cohughes;
 
