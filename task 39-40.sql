@@ -33,7 +33,7 @@ SELECT nameFirst, nameLast FROM people;
          and last name is “Ruth.”
 */
 -- Your query below:
-SELECT playerID, nameFirst, nameLast FROM peopleWHERE nameFirst = 'Babe' AND nameLast = 'Ruth';
+SELECT playerID, nameFirst, nameLast FROM people WHERE nameFirst = 'Babe' AND nameLast = 'Ruth';
 
 
 
@@ -94,7 +94,7 @@ SELECT nameFirst, nameLast, debut FROM people WHERE debut <'1950-01-01';
 */
 -- Your query below:
 
-SELECT nameFirst, nameLast, deathDate  FROM people WHERE deathDate IS NULL;
+SELECT nameFirst, nameLast, deathYear,deathDay,deathMonth FROM people WHERE deathYear IS NULL;
 
 
 /* 10. Power hitters in the National League
